@@ -1,6 +1,6 @@
 # Proyecto To-Do List con Node.js y SQLite
 
-Este proyecto es una aplicación de lista de tareas (To-Do List) donde puedes agregar, ver y eliminar tareas. Utiliza un backend en **Node.js** y una base de datos **SQLite**.
+Este proyecto es una aplicación de lista de tareas (To-Do List) donde puedes agregar, ver y eliminar tareas. Utiliza un backend en **Express** y una base de datos **SQLite**.
 
 ## Requisitos
 
@@ -12,8 +12,8 @@ Este proyecto es una aplicación de lista de tareas (To-Do List) donde puedes ag
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/to-do-list.git
-cd to-do-list
+git clone https://github.com/danybasulto/SQLite-To-Do.git
+cd SQLite-To-Do
 ```
 
 ### 2. Instala las dependencias
@@ -27,7 +27,7 @@ npm install
 
 ### 3. Inicia el servidor
 
-Ejecuta el siguiente comando para iniciar el servidor de Node.js:
+Ejecuta el siguiente comando dentro de la carpeta **server** para iniciar el servidor de Express:
 
 ```bash
 node server.js
